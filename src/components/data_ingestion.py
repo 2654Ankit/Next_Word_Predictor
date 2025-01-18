@@ -1,0 +1,41 @@
+import os
+import zipfile
+import gdown
+from src import logger
+from src.utils.common import get_size
+from src.entity.config_entity import DataIngestionConfig
+
+class DataIngestion:
+    def __init__(self,dataingestionConfig:DataIngestionConfig):
+        self.dataingestionConfig = dataingestionConfig
+
+    def download_file(self)->str:
+        try:
+            dataset_url = self.dataingestionConfig.source_URL
+            zip_download_dir = self.dataingestionConfig.local_data_file
+            os.makedirs("artifacts/data_ingestion",exist_ok=True)
+
+            logger.info(f"Downloading data from {dataset_url} into file {zip_download_dir}")
+
+            file_id = dataset_url.split("/")[-2]
+            prefix = 'https://drive.google.com/uc?/export=download&id='
+            gdown.download(prefix+file_id,zip_download_dir)
+
+            logger.info(f'>>>>>>>>>>>>>>>> Data downloaded <<<<<<<<<<<<<')
+
+        except Exception as e:
+            raise e
+
+    def extract_zip_file(self):
+        logger.info(">>>>>>>>>>> Extracting Zip DataFile <<<<<<<<<<<<<<")
+        unzip_path = self.dataingestionConfig.unzip_dir
+        
+        os.makedirs(unzip_path,exist_ok=True)
+
+
+        with zipfile.ZipFile(self.dataingestionConfig.local_data_file,'r') as zip_ref:
+            zip_ref.extractall(unzip_path)
+
+        logger.info(">>>>>>>>>> Zip file extracted <<<<<<<<<<<<<<<")
+
+
