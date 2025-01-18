@@ -6,7 +6,7 @@ class Data_Transformation_Pipeline:
     def __init__(self):
         pass
 
-    def main(self):
+    def main(self)->int:
         logger.info(">>>>>> Running data_transformation_pipeline<<<<<<<<<<")
         try:
 
@@ -16,6 +16,7 @@ class Data_Transformation_Pipeline:
             data_transformation = TransformData(data_transformation_config)
 
             data_transformation.transform_data()
+            return data_transformation.unique_word()
 
 
         except Exception as e:

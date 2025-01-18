@@ -30,34 +30,37 @@ class TransformData:
             data = data.replace('"""',"")
 
             tokenizer = Tokenizer()
-            
+
             tokenizer.fit_on_texts([data])
             
-            unique_word_count = len(tokenizer.word_index)
+            self.unique_word_count  = len(tokenizer.word_index)
 
             input_sequences = []
             for sentence in data.split("\n"):
                 tokenized_sentence = tokenizer.texts_to_sequences([sentence])[0]
-            for i in range(1, len(tokenized_sentence)):
-                input_sequences.append(tokenized_sentence[:i+1])
+                for i in range(1, len(tokenized_sentence)):
+                    input_sequences.append(tokenized_sentence[:i+1])
+
+            print("input sequence is ",input_sequences)
         
-            print(input_sequences)
+            self.max_len = max([len(x) for x in input_sequences])
+            print("maximum length is ",self.max_len)
 
-            max_len = max([len(x) for x in input_sequences])
-
-            padded_input_sequences = pad_sequences(input_sequences,maxlen=max_len,padding='pre')
+            padded_input_sequences = pad_sequences(input_sequences,maxlen=self.max_len,padding='pre')
 
             x = padded_input_sequences[:,:-1]
 
             y = padded_input_sequences[:,-1]
 
-            y = to_categorical(y,num_classes=unique_word_count+1 )
+            y = to_categorical(y,num_classes=self.unique_word_count+1 )
 
 
             x_path = self.data_transformation_config.transformed_data_x + "/x.pkl"
             y_path = self.data_transformation_config.transformed_data_y + "/y.pkl"
             with open(x_path,'wb') as f:
                 pickle.dump(x,f)
+
+            
 
             
             with open(y_path,'wb') as f:
@@ -68,5 +71,8 @@ class TransformData:
             
         except Exception as e:
             raise e
+
+    def unique_word(self):
+        return (self.unique_word_count,self.max_len)
 
     

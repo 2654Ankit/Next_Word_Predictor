@@ -1,6 +1,6 @@
 from src.constants import *
 from src.utils.common import read_yaml,create_directories,save_json
-from src.entity.config_entity import (DataIngestionConfig,DataTransformationConfig)
+from src.entity.config_entity import (DataIngestionConfig,DataTransformationConfig,ModelTrainerConfig)
 import os
 
 
@@ -39,5 +39,16 @@ class ConfigurationManager:
         )
 
         return data_transformation_config
+
+
+    def model_trainer_config(self)->ModelTrainerConfig:
+        transformed_data_dir = self.config.data_transformation.transformed_data_dir
+        model_trainer = self.config.model_trainer
+        model_trainer_conf = ModelTrainerConfig(
+            transformed_data_dir=transformed_data_dir,model_dir=model_trainer.model_dir,model_name=model_trainer.model_name
+        )
+
+        return model_trainer_conf
+        
 
 

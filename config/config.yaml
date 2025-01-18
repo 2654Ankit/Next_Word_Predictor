@@ -12,3 +12,7 @@ data_transformation:
   transformed_data_dir: artifacts/transformed_data
   data_file_dir: artifacts/data_ingestion
   data_file_name: text.txt
+
+model_trainer:
+  model_dir: model
+  model_name: NextWord.pkl

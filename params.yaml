@@ -1,3 +1,4 @@
 ModelParams:
-  units: 100
+  units: 150
   output_dim : 100
+  EPOCHS : 3  

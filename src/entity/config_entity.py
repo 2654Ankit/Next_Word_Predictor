@@ -15,3 +15,9 @@ class DataTransformationConfig:
     transformed_data_x:str
     transformed_data_y : str
 
+@dataclass(frozen=True)
+class ModelTrainerConfig:
+    transformed_data_dir : str
+    model_dir: str
+    model_name: str
+
