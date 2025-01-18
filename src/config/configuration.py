@@ -1,6 +1,6 @@
 from src.constants import *
 from src.utils.common import read_yaml,create_directories,save_json
-from src.entity.config_entity import (DataIngestionConfig)
+from src.entity.config_entity import (DataIngestionConfig,DataTransformationConfig)
 import os
 
 
@@ -24,5 +24,20 @@ class ConfigurationManager:
         )
 
         return data_ingestion_config
+
+    def data_transformation_config(self)->DataTransformationConfig:
+        config = self.config.data_transformation
+        params = self.params.ModelParams
+
+        create_directories([config.transformed_data_dir])
+
+        data_transformation_config = DataTransformationConfig(
+            data_file_path=config.data_file_dir,
+            data_file_name = config.data_file_name,
+            transformed_data_x=config.transformed_data_dir,
+            transformed_data_y=config.transformed_data_dir
+        )
+
+        return data_transformation_config
 
 

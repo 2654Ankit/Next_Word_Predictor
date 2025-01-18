@@ -8,3 +8,10 @@ class DataIngestionConfig:
     local_data_file:Path
     unzip_dir:Path
 
+@dataclass(frozen=True)
+class DataTransformationConfig:
+    data_file_path:str
+    data_file_name:str
+    transformed_data_x:str
+    transformed_data_y : str
+

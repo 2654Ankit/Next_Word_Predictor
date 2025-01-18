@@ -1,1 +1,3 @@
-data : "hello"
+ModelParams:
+  units: 100
+  output_dim : 100

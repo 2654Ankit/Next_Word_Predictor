@@ -9,6 +9,7 @@ from box import ConfigBox
 from pathlib import Path
 from typing import Any
 import base64
+import pickle
 
 
 @ensure_annotations
@@ -88,6 +89,15 @@ def load_json(path:Path) ->ConfigBox:
         content = json.load(f)
 
     logger.info(f"json file is loaded successfully from :{path}")
+
+@ensure_annotations
+def load_text(path:Path):
+    with open(path) as f:
+        content = f.read()
+
+    return content
+
+
 
 @ensure_annotations
 def save_bin(data:Any,path:Path):
