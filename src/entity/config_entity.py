@@ -21,3 +21,7 @@ class ModelTrainerConfig:
     model_dir: str
     model_name: str
 
+@dataclass
+class PredictionConfig:
+    model_path: str
+

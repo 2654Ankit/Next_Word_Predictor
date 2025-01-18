@@ -16,8 +16,9 @@ class Data_Transformation_Pipeline:
             data_transformation = TransformData(data_transformation_config)
 
             data_transformation.transform_data()
-            return data_transformation.unique_word()
+            unique_word = data_transformation.unique_word()
 
+            return unique_word
 
         except Exception as e:
             raise e

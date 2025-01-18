@@ -18,6 +18,7 @@ class Model_Trainer_Pipeline:
 
             model_trainer.train_model(self.unique_word,self.max_len)
 
+            
 
         except Exception as e:
             raise e

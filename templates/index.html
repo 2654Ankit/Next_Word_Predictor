@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+    <title>Next_word_predictor</title>
+</head>
+<body>
+
+    <div class="main-container">
+
+        <p>Welcome to next word predictor</p>
+
+            <form id="myForm" action="{{ url_for('predict') }}" method="post">
+
+                <textarea name="text" id="text" placeholder="Enter your text here"></textarea>
+                <button id="btn" type="submit">Submit</button>
+            </form>
+            
+            <div class="result">
+    
+                {% if result %}
+                <p>{{result}}</p>
+                {% endif %}
+        </div>
+        
+    </div>
+
+
+
+
+
+    <script>
+
+        const text_area = document.getElementById("text")
+
+        text_area.onchange = function (){
+            const text = text_area.value;
+            console.log(text);
+            
+            document.getElementById("btn")
+        }
+        
+    </script>
+
+</body>
+</html>

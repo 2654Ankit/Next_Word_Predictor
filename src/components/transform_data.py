@@ -57,6 +57,7 @@ class TransformData:
 
             x_path = self.data_transformation_config.transformed_data_x + "/x.pkl"
             y_path = self.data_transformation_config.transformed_data_y + "/y.pkl"
+            tokenizer_path = self.data_transformation_config.transformed_data_x +"/tokenizer.pkl"
             with open(x_path,'wb') as f:
                 pickle.dump(x,f)
 
@@ -65,6 +66,9 @@ class TransformData:
             
             with open(y_path,'wb') as f:
                 pickle.dump(y,f)
+            
+            with open(tokenizer_path,'wb') as f:
+                pickle.dump(tokenizer,f)
 
 
 
@@ -74,5 +78,8 @@ class TransformData:
 
     def unique_word(self):
         return (self.unique_word_count,self.max_len)
+
+    # def ret_tokenizer(self):
+    #     return self.tokenizer
 
     

@@ -1,6 +1,6 @@
 from src.constants import *
 from src.utils.common import read_yaml,create_directories,save_json
-from src.entity.config_entity import (DataIngestionConfig,DataTransformationConfig,ModelTrainerConfig)
+from src.entity.config_entity import (DataIngestionConfig,DataTransformationConfig,ModelTrainerConfig,PredictionConfig)
 import os
 
 
@@ -49,6 +49,11 @@ class ConfigurationManager:
         )
 
         return model_trainer_conf
+
+    # def prediction_config(self):
+    #     try:
+
+
         
 
 
