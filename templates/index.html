@@ -14,7 +14,7 @@
 
             <form id="myForm" action="{{ url_for('predict') }}" method="post">
 
-                <textarea name="text" id="text" placeholder="Enter your text here"></textarea>
+                <textarea name="text" id="text" oninput="checkSpaceAndSubmit(event) " placeholder="Enter your text here"></textarea>
                 <button id="btn" type="submit">Submit</button>
             </form>
             
@@ -33,15 +33,14 @@
 
     <script>
 
-        const text_area = document.getElementById("text")
-
-        text_area.onchange = function (){
-            const text = text_area.value;
-            console.log(text);
-            
-            document.getElementById("btn")
+        // const text_area = document.getElementById("text")
+        function checkSpaceAndSubmit(event) {
+            // Check if the last character is a space
+            const inputValue = event.target.value;
+            if (inputValue.endsWith(" ")) {
+                document.getElementById("myForm").submit();
+            }
         }
-        
     </script>
 
 </body>
