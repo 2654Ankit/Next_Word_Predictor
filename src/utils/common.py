@@ -92,7 +92,8 @@ def load_json(path:Path) ->ConfigBox:
 
 @ensure_annotations
 def load_text(path:Path):
-    with open(path) as f:
+    print("path is", path)
+    with open(path,encoding='utf-8') as f:
         content = f.read()
 
     return content

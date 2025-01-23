@@ -1,7 +1,7 @@
+# from src import logger
+from components.data_ingestion import DataIngestion
+from config.configuration import ConfigurationManager
 from src import logger
-from src.components.data_ingestion import DataIngestion
-from src.config.configuration import ConfigurationManager
-
 class Data_ingestion_pipeline:
     def __init__(self):
         pass

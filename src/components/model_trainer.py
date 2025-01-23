@@ -26,7 +26,7 @@ class ModelTrainer:
         model_params = self.params.ModelParams
         EPOCHS = model_params.EPOCHS
 
-        model_ = ModelArhitecture(input_dim=unique_word,output_dim=model_params.output_dim,input_length=max_len,units=model_params.units)
+        model_ = ModelArhitecture(input_dim=unique_word,output_dim=model_params.output_dim,input_length=max_len)
 
         model = model_.model()
         model.fit(x,y,epochs = EPOCHS)

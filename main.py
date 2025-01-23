@@ -8,16 +8,16 @@ from src.pipeline.Prediction_pipeline import Prediction_Pipeline
 
 
 
-STAGE_NAME = "Data_ingestion_stage"
+# STAGE_NAME = "Data_ingestion_stage"
 
-try:
-    logger.info(f">>>>>>>>>>>>>>>>>Entered into {STAGE_NAME}<<<<<<<<<<<<<<<")
-    obj = Data_ingestion_pipeline()
-    obj.main()
-    logger.info(f"Exist from {STAGE_NAME}")
+# try:
+#     logger.info(f">>>>>>>>>>>>>>>>>Entered into {STAGE_NAME}<<<<<<<<<<<<<<<")
+#     obj = Data_ingestion_pipeline()
+#     obj.main()
+#     logger.info(f"Exist from {STAGE_NAME}")
 
-except Exception as e:
-    raise e
+# except Exception as e:
+#     raise e
 
 STAGE_NAME = "Data_transformation_stage"
 

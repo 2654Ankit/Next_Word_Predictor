@@ -3,7 +3,7 @@ artifacts_root: artifacts
 
 data_ingestion:
   root_dir: artifacts/data_ingestion
-  source_URL: "https://drive.google.com/file/d/11dmrM8o5BQy4zQYGRkaCEVAp-_nt6wWx/view?usp=sharing"
+  source_URL: "https://drive.google.com/file/d/1XUi0m9zVlQvPbewqYDIcHcgSs4k-LNtq/view?usp=sharing"
   local_data_file: artifacts/data_ingestion/data.zip
   unzip_dir: artifacts/data_ingestion
 
@@ -11,7 +11,7 @@ data_ingestion:
 data_transformation:
   transformed_data_dir: artifacts/transformed_data
   data_file_dir: artifacts/data_ingestion
-  data_file_name: text.txt
+  data_file_name: text_data.txt
 
 model_trainer:
   model_dir: model

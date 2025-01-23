@@ -25,3 +25,9 @@ class ModelTrainerConfig:
 class PredictionConfig:
     model_path: str
 
+
+@dataclass(frozen=True)
+class EvaluationConfig:
+    path_of_model: Path
+    all_params: dict
+    # mlfl
