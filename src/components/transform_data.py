@@ -45,6 +45,7 @@ class TransformData:
         
             self.max_len = max([len(x) for x in input_sequences])
             print("maximum length is ",self.max_len)
+            pickle.dump(self.max_len,open("artifacts/transformed_data/max_len.pkl","wb"))
 
             padded_input_sequences = pad_sequences(input_sequences,maxlen=self.max_len,padding='pre')
 

@@ -26,11 +26,13 @@ class Prediction:
 
             tokenizer  = pickle.load(open(tokenizer_path,'rb'))
 
+            max_len = pickle.load(open("artifacts/transformed_data/max_len.pkl","rb"))
+
             for i in range(1):
                 #tokenize
                 token_text = tokenizer.texts_to_sequences([text])[0]
                 #pad_sequence
-                padded_token_text = pad_sequences([token_text],maxlen=29,padding='pre')
+                padded_token_text = pad_sequences([token_text],maxlen=max_len,padding='pre')
                 #predict
                 pos = np.argmax(model.predict(padded_token_text))
                 for word,index in tokenizer.word_index.items():
