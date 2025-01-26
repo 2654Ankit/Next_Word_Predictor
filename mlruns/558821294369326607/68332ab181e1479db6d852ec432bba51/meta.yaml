@@ -1,0 +1,16 @@
+artifact_uri: file:///D:/ML_Projects/End_to_end/Next_Word_Predictor/mlruns/558821294369326607/68332ab181e1479db6d852ec432bba51/artifacts
+deleted_time: 1737887711920
+end_time: 1737887470656
+entry_point_name: ''
+experiment_id: '558821294369326607'
+lifecycle_stage: deleted
+run_id: 68332ab181e1479db6d852ec432bba51
+run_name: adorable-grub-521
+run_uuid: 68332ab181e1479db6d852ec432bba51
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737887470621
+status: 4
+tags: []
+user_id: ankit

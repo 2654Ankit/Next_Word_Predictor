@@ -1,0 +1,16 @@
+artifact_uri: file:///D:/ML_Projects/End_to_end/Next_Word_Predictor/mlruns/558821294369326607/9a44d89baf5e41ff89a737eb15d62a50/artifacts
+deleted_time: 1737811756105
+end_time: 1737811685052
+entry_point_name: ''
+experiment_id: '558821294369326607'
+lifecycle_stage: deleted
+run_id: 9a44d89baf5e41ff89a737eb15d62a50
+run_name: rare-gnu-894
+run_uuid: 9a44d89baf5e41ff89a737eb15d62a50
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737811685026
+status: 4
+tags: []
+user_id: ankit

@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/ML_Projects/End_to_end/Next_Word_Predictor/mlruns/558821294369326607/abf43b78d5fd4cc0a78e2e736eac61e2/artifacts
+end_time: 1737811882243
+entry_point_name: ''
+experiment_id: '558821294369326607'
+lifecycle_stage: active
+run_id: abf43b78d5fd4cc0a78e2e736eac61e2
+run_name: big-stag-373
+run_uuid: abf43b78d5fd4cc0a78e2e736eac61e2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737811882205
+status: 3
+tags: []
+user_id: ankit

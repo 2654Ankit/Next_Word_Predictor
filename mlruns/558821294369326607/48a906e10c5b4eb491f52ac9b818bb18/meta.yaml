@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/ML_Projects/End_to_end/Next_Word_Predictor/mlruns/558821294369326607/48a906e10c5b4eb491f52ac9b818bb18/artifacts
+end_time: 1737812076442
+entry_point_name: ''
+experiment_id: '558821294369326607'
+lifecycle_stage: active
+run_id: 48a906e10c5b4eb491f52ac9b818bb18
+run_name: ambitious-wren-985
+run_uuid: 48a906e10c5b4eb491f52ac9b818bb18
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737812076398
+status: 3
+tags: []
+user_id: ankit

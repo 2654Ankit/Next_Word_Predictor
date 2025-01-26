@@ -1,0 +1,16 @@
+artifact_uri: file:///D:/ML_Projects/End_to_end/Next_Word_Predictor/mlruns/0/db7ad475311349f1819531d3c8af5150/artifacts
+deleted_time: 1737810726191
+end_time: 1737810507143
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: db7ad475311349f1819531d3c8af5150
+run_name: shivering-snake-782
+run_uuid: db7ad475311349f1819531d3c8af5150
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737810507103
+status: 4
+tags: []
+user_id: ankit

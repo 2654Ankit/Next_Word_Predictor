@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/ML_Projects/End_to_end/Next_Word_Predictor/mlruns/558821294369326607/c4ef8b791d6f4e6db65c6687d0cd6c4e/artifacts
+end_time: 1737887642960
+entry_point_name: ''
+experiment_id: '558821294369326607'
+lifecycle_stage: active
+run_id: c4ef8b791d6f4e6db65c6687d0cd6c4e
+run_name: thoughtful-whale-705
+run_uuid: c4ef8b791d6f4e6db65c6687d0cd6c4e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737887642924
+status: 3
+tags: []
+user_id: ankit

@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/ML_Projects/End_to_end/Next_Word_Predictor/mlruns/558821294369326607/3e47bb2523fb48cba77deb652f454e9b/artifacts
+end_time: 1737885428210
+entry_point_name: ''
+experiment_id: '558821294369326607'
+lifecycle_stage: active
+run_id: 3e47bb2523fb48cba77deb652f454e9b
+run_name: dashing-foal-146
+run_uuid: 3e47bb2523fb48cba77deb652f454e9b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737885428189
+status: 3
+tags: []
+user_id: ankit

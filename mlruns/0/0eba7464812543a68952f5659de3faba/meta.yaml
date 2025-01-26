@@ -1,0 +1,16 @@
+artifact_uri: file:///D:/ML_Projects/End_to_end/Next_Word_Predictor/mlruns/0/0eba7464812543a68952f5659de3faba/artifacts
+deleted_time: 1737810726216
+end_time: 1737810164003
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 0eba7464812543a68952f5659de3faba
+run_name: salty-mouse-696
+run_uuid: 0eba7464812543a68952f5659de3faba
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737810163977
+status: 4
+tags: []
+user_id: ankit

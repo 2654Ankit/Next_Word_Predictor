@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/ML_Projects/End_to_end/Next_Word_Predictor/mlruns/558821294369326607/e3993044159b472fa18ccb825a3ef316/artifacts
+end_time: 1737890369913
+entry_point_name: ''
+experiment_id: '558821294369326607'
+lifecycle_stage: active
+run_id: e3993044159b472fa18ccb825a3ef316
+run_name: respected-bat-586
+run_uuid: e3993044159b472fa18ccb825a3ef316
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737890369872
+status: 3
+tags: []
+user_id: ankit

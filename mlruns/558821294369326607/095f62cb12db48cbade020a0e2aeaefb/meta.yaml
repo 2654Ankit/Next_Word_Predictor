@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/ML_Projects/End_to_end/Next_Word_Predictor/mlruns/558821294369326607/095f62cb12db48cbade020a0e2aeaefb/artifacts
+end_time: 1737812905530
+entry_point_name: ''
+experiment_id: '558821294369326607'
+lifecycle_stage: active
+run_id: 095f62cb12db48cbade020a0e2aeaefb
+run_name: languid-grouse-441
+run_uuid: 095f62cb12db48cbade020a0e2aeaefb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737812905508
+status: 3
+tags: []
+user_id: ankit

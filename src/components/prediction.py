@@ -32,7 +32,7 @@ class Prediction:
                 #tokenize
                 token_text = tokenizer.texts_to_sequences([text])[0]
                 #pad_sequence
-                padded_token_text = pad_sequences([token_text],maxlen=max_len,padding='pre')
+                padded_token_text = pad_sequences([token_text],maxlen=max_len-1,padding='pre')
                 #predict
                 pos = np.argmax(model.predict(padded_token_text))
                 for word,index in tokenizer.word_index.items():

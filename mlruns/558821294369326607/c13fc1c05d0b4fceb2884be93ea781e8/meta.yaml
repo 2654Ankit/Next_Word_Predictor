@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/ML_Projects/End_to_end/Next_Word_Predictor/mlruns/558821294369326607/c13fc1c05d0b4fceb2884be93ea781e8/artifacts
+end_time: 1737817913700
+entry_point_name: ''
+experiment_id: '558821294369326607'
+lifecycle_stage: active
+run_id: c13fc1c05d0b4fceb2884be93ea781e8
+run_name: nimble-dove-705
+run_uuid: c13fc1c05d0b4fceb2884be93ea781e8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737817913643
+status: 3
+tags: []
+user_id: ankit

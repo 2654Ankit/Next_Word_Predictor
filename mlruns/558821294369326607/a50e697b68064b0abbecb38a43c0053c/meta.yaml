@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/ML_Projects/End_to_end/Next_Word_Predictor/mlruns/558821294369326607/a50e697b68064b0abbecb38a43c0053c/artifacts
+end_time: 1737886372830
+entry_point_name: ''
+experiment_id: '558821294369326607'
+lifecycle_stage: active
+run_id: a50e697b68064b0abbecb38a43c0053c
+run_name: popular-bird-137
+run_uuid: a50e697b68064b0abbecb38a43c0053c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737886372807
+status: 3
+tags: []
+user_id: ankit

@@ -1,0 +1,16 @@
+artifact_uri: file:///D:/ML_Projects/End_to_end/Next_Word_Predictor/mlruns/0/2df9dbb2bb4946db8b69d7c76868a2d8/artifacts
+deleted_time: 1737811771869
+end_time: 1737811254018
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 2df9dbb2bb4946db8b69d7c76868a2d8
+run_name: upset-colt-509
+run_uuid: 2df9dbb2bb4946db8b69d7c76868a2d8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737811253975
+status: 3
+tags: []
+user_id: ankit

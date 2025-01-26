@@ -8,50 +8,23 @@ stages:
     outs:
       - artifacts/data_ingestion
 
-  # prepare_base_model:
-  #   cmd: python src/Kidney_Disease_Classifier/pipeline/stage_02_prepare_base_model.py
+  transformed_data:
+    cmd: python src/pipeline/Stage_02_transform_data.py
 
-  #   deps:
-  #     - src/Kidney_Disease_Classifier/pipeline/stage_02_prepare_base_model.py
-  #     - config/config.yaml
-  #   params:
-  #     - IMAGE_SIZE
-  #     - INCLUDE_TOP
-  #     - CLASSES
-  #     - WEIGHTS
-  #     - LEARNING_RATE
+    deps: 
+      - src/pipeline/Stage_02_transform_data.py
 
-  #   outs:
-  #     - artifacts/prepare_base_model
+    outs:
+      - artifacts/transformed_data
 
-  # training:
-  #   cmd: python src/Kidney_Disease_Classifier/pipeline/stage_03_model_training.py
-  #   deps:
-  #     - src/Kidney_Disease_Classifier/pipeline/stage_03_model_training.py
-  #     - config/config.yaml
-  #     - artifacts/data_ingestion/kidney-data
-  #     - artifacts/prepare_base_model
+  prepare_model:
+    cmd: python src/pipeline/stage_03_model_trainer.py
 
-  #   params:
-  #     - IMAGE_SIZE
-  #     - EPOCHS
-  #     - BATCH_SIZE
-  #     - AUGMENTATION
+    deps: 
+      -  src/pipeline/stage_03_model_trainer.py
 
-  #   outs:
-  #     - artifacts/training/model.h5
 
-  # evaluation:
-  #   cmd: python src/Kidney_Disease_Classifier/pipeline/stage_04_model_evaluation.py
-  #   deps:
-  #     - config/config.yaml
-  #     - artifacts/data_ingestion/kidney-data
-  #     - artifacts/training/model.h5
-
-  #   params:
-  #     - IMAGE_SIZE
-  #     - BATCH_SIZE
-
-  #   metrics:
-  #     - score.json:
-  #         cache: false
+  evaluation:
+    cmd: python src/pipeline/Stage_04_model_evaluation.py
+    deps:
+      - src/pipeline/Stage_04_model_evaluation.py

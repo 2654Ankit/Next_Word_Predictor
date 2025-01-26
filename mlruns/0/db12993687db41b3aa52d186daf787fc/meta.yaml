@@ -1,0 +1,16 @@
+artifact_uri: file:///D:/ML_Projects/End_to_end/Next_Word_Predictor/mlruns/0/db12993687db41b3aa52d186daf787fc/artifacts
+deleted_time: 1737811771871
+end_time: 1737810988758
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: db12993687db41b3aa52d186daf787fc
+run_name: silent-dolphin-764
+run_uuid: db12993687db41b3aa52d186daf787fc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737810988670
+status: 4
+tags: []
+user_id: ankit

@@ -1,6 +1,6 @@
-from src import logger
-from src.components.transform_data import TransformData
-from src.config.configuration import ConfigurationManager
+from logger import logger
+from components.transform_data import TransformData
+from config.configuration import ConfigurationManager
 
 class Data_Transformation_Pipeline:
     def __init__(self):
@@ -22,3 +22,16 @@ class Data_Transformation_Pipeline:
 
         except Exception as e:
             raise e
+
+
+    
+STAGE_NAME = "Data_transformation_stage"
+if __name__ =="__main__":
+    try:
+        logger.info(f">>>>>>>>>>>>>>>>> Entered into {STAGE_NAME}<<<<<<<<<<<<<<<")
+        obj = Data_Transformation_Pipeline()
+        unique_word = obj.main()
+        logger.info(f">>>>>>>>>>>>>>>>> Exist from {STAGE_NAME} <<<<<<<<<<<<<<<<<<")
+
+    except Exception as e:
+        raise e

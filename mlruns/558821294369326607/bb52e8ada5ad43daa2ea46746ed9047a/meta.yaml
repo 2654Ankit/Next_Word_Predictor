@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/ML_Projects/End_to_end/Next_Word_Predictor/mlruns/558821294369326607/bb52e8ada5ad43daa2ea46746ed9047a/artifacts
+end_time: 1737862322059
+entry_point_name: ''
+experiment_id: '558821294369326607'
+lifecycle_stage: active
+run_id: bb52e8ada5ad43daa2ea46746ed9047a
+run_name: stylish-gnat-257
+run_uuid: bb52e8ada5ad43daa2ea46746ed9047a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737862321965
+status: 3
+tags: []
+user_id: ankit

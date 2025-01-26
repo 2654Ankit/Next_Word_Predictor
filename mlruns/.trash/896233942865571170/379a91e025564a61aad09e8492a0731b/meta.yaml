@@ -1,0 +1,16 @@
+artifact_uri: file:///D:/ML_Projects/End_to_end/Next_Word_Predictor/mlruns/896233942865571170/379a91e025564a61aad09e8492a0731b/artifacts
+deleted_time: 1737811676129
+end_time: 1737811364267
+entry_point_name: ''
+experiment_id: '896233942865571170'
+lifecycle_stage: deleted
+run_id: 379a91e025564a61aad09e8492a0731b
+run_name: intrigued-hen-97
+run_uuid: 379a91e025564a61aad09e8492a0731b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737811364213
+status: 3
+tags: []
+user_id: ankit

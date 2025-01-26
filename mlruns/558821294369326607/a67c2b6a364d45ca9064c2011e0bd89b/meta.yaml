@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/ML_Projects/End_to_end/Next_Word_Predictor/mlruns/558821294369326607/a67c2b6a364d45ca9064c2011e0bd89b/artifacts
+end_time: 1737900488672
+entry_point_name: ''
+experiment_id: '558821294369326607'
+lifecycle_stage: active
+run_id: a67c2b6a364d45ca9064c2011e0bd89b
+run_name: inquisitive-mare-474
+run_uuid: a67c2b6a364d45ca9064c2011e0bd89b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737900488636
+status: 3
+tags: []
+user_id: ankit

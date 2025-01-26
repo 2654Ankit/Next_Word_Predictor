@@ -1,0 +1,16 @@
+artifact_uri: file:///D:/ML_Projects/End_to_end/Next_Word_Predictor/mlruns/558821294369326607/de3feaa5ee984e57b5db3f73b84e0253/artifacts
+deleted_time: 1737811851065
+end_time: 1737811785381
+entry_point_name: ''
+experiment_id: '558821294369326607'
+lifecycle_stage: deleted
+run_id: de3feaa5ee984e57b5db3f73b84e0253
+run_name: enthused-snail-966
+run_uuid: de3feaa5ee984e57b5db3f73b84e0253
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737811785341
+status: 4
+tags: []
+user_id: ankit

@@ -1,0 +1,16 @@
+artifact_uri: file:///D:/ML_Projects/End_to_end/Next_Word_Predictor/mlruns/0/69195382d4d44f1b80243a2a3f35a7f1/artifacts
+deleted_time: 1737810726132
+end_time: 1737810373638
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 69195382d4d44f1b80243a2a3f35a7f1
+run_name: nimble-croc-849
+run_uuid: 69195382d4d44f1b80243a2a3f35a7f1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737810373611
+status: 4
+tags: []
+user_id: ankit

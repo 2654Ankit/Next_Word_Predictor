@@ -2,8 +2,8 @@
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Embedding,LSTM,Dense
 
-from src.utils.common import read_yaml
-from src.constants import *
+from utils.common import read_yaml
+from constants import *
 class ModelArhitecture:
     def __init__(self,input_dim,output_dim,input_length):
 
@@ -22,7 +22,7 @@ class ModelArhitecture:
 
         print("iput len",self.input_length)
 
-        model.compile(loss= 'categorical_crossentropy',optimizer='adam',metrics=['accuracy'])
+        model.compile(loss= 'categorical_crossentropy',optimizer='adam',metrics=['accuracy','Precision',"Recall"])
         print(model.summary())
 
         return model

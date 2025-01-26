@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/ML_Projects/End_to_end/Next_Word_Predictor/mlruns/558821294369326607/8f87a83ed93449b58c01a58d7afd7a74/artifacts
+end_time: 1737887335866
+entry_point_name: ''
+experiment_id: '558821294369326607'
+lifecycle_stage: active
+run_id: 8f87a83ed93449b58c01a58d7afd7a74
+run_name: burly-duck-216
+run_uuid: 8f87a83ed93449b58c01a58d7afd7a74
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737887335807
+status: 3
+tags: []
+user_id: ankit

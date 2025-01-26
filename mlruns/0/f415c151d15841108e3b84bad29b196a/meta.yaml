@@ -1,0 +1,16 @@
+artifact_uri: file:///D:/ML_Projects/End_to_end/Next_Word_Predictor/mlruns/0/f415c151d15841108e3b84bad29b196a/artifacts
+deleted_time: 1737810832991
+end_time: 1737810748980
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: f415c151d15841108e3b84bad29b196a
+run_name: exultant-bug-237
+run_uuid: f415c151d15841108e3b84bad29b196a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737810748941
+status: 4
+tags: []
+user_id: ankit

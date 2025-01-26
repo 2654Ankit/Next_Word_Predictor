@@ -1,0 +1,16 @@
+artifact_uri: file:///D:/ML_Projects/End_to_end/Next_Word_Predictor/mlruns/558821294369326607/64eaf59d6719438fa01ac04b3d835abd/artifacts
+deleted_time: 1737811756099
+end_time: 1737811544371
+entry_point_name: ''
+experiment_id: '558821294369326607'
+lifecycle_stage: deleted
+run_id: 64eaf59d6719438fa01ac04b3d835abd
+run_name: smiling-loon-745
+run_uuid: 64eaf59d6719438fa01ac04b3d835abd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737811544350
+status: 3
+tags: []
+user_id: ankit

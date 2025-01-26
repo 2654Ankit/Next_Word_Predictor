@@ -1,4 +1,4 @@
 ModelParams:
   units: 150
   output_dim : 100
-  EPOCHS : 100
+  EPOCHS : 1

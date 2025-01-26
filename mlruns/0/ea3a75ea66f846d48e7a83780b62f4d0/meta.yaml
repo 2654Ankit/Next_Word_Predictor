@@ -1,0 +1,16 @@
+artifact_uri: file:///D:/ML_Projects/End_to_end/Next_Word_Predictor/mlruns/0/ea3a75ea66f846d48e7a83780b62f4d0/artifacts
+deleted_time: 1737810726189
+end_time: 1737810449700
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: ea3a75ea66f846d48e7a83780b62f4d0
+run_name: adaptable-kit-258
+run_uuid: ea3a75ea66f846d48e7a83780b62f4d0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737810449677
+status: 4
+tags: []
+user_id: ankit

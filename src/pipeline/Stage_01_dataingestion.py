@@ -1,7 +1,7 @@
 # from src import logger
 from components.data_ingestion import DataIngestion
 from config.configuration import ConfigurationManager
-from src import logger
+from logger import logger
 class Data_ingestion_pipeline:
     def __init__(self):
         pass
@@ -21,5 +21,14 @@ class Data_ingestion_pipeline:
         except Exception as e:
             raise e
 
-    
-        
+STAGE_NAME = "Data_ingestion"
+
+if __name__=="__main__":
+    try:
+        logger.info(f">>>>>>>>>>>>>>>>>Entered into {STAGE_NAME}<<<<<<<<<<<<<<<")
+        obj = Data_ingestion_pipeline()
+        obj.main()
+        logger.info(f"Exist from {STAGE_NAME}")
+
+    except Exception as e:
+        raise e        

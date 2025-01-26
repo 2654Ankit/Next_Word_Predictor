@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/ML_Projects/End_to_end/Next_Word_Predictor/mlruns/558821294369326607/4b54b4901b4d4011b8407492dd34e5e5/artifacts
+end_time: 1737887684339
+entry_point_name: ''
+experiment_id: '558821294369326607'
+lifecycle_stage: active
+run_id: 4b54b4901b4d4011b8407492dd34e5e5
+run_name: worried-carp-135
+run_uuid: 4b54b4901b4d4011b8407492dd34e5e5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737887684305
+status: 3
+tags: []
+user_id: ankit

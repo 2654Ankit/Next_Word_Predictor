@@ -1,0 +1,16 @@
+artifact_uri: file:///D:/ML_Projects/End_to_end/Next_Word_Predictor/mlruns/558821294369326607/d0e9bb5d0e064e1ab9fef14911e52d47/artifacts
+deleted_time: 1737811756108
+end_time: 1737811500194
+entry_point_name: ''
+experiment_id: '558821294369326607'
+lifecycle_stage: deleted
+run_id: d0e9bb5d0e064e1ab9fef14911e52d47
+run_name: suave-mare-506
+run_uuid: d0e9bb5d0e064e1ab9fef14911e52d47
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737811500173
+status: 3
+tags: []
+user_id: ankit
