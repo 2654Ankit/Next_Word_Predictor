@@ -27,8 +27,10 @@ def predict():
     result = obj.predict(text)
     return render_template("index.html",result=result)
 
+import os
 
+port = int(os.getenv("PORT", 5000))  # Default to 5000 if PORT is not set
 
 if __name__ =="__main__":
 
-    app.run(debug=True,host='0.0.0.0',port=8080) 
+    app.run(debug=True,host='0.0.0.0',port=port) 
