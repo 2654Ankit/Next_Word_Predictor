@@ -26,8 +26,8 @@ class Prediction:
 
             tokenizer  = pickle.load(open(tokenizer_path,'rb'))
 
-            max_len = pickle.load(open("artifacts/transformed_data/max_len.pkl","rb"))
-
+            uniqie_word_count = pickle.load(open("artifacts/transformed_data/unique_max_word.pkl","rb"))
+            max_len = uniqie_word_count[1]
             for i in range(1):
                 #tokenize
                 token_text = tokenizer.texts_to_sequences([text])[0]
