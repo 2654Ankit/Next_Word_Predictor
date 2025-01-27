@@ -29,7 +29,7 @@ def predict():
 
 import os
 
-port = int(os.getenv("PORT", 5000))  # Default to 5000 if PORT is not set
+port = int(os.getenv("PORT", 8080))  # Default to 8080 if PORT is not set
 
 if __name__ =="__main__":
 

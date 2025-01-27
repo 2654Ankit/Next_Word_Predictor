@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/ML_Projects/End_to_end/Next_Word_Predictor/mlruns/558821294369326607/3ee30e160a5545f8ae8cd556c11a64ae/artifacts
+end_time: 1737937093141
+entry_point_name: ''
+experiment_id: '558821294369326607'
+lifecycle_stage: active
+run_id: 3ee30e160a5545f8ae8cd556c11a64ae
+run_name: sincere-mare-215
+run_uuid: 3ee30e160a5545f8ae8cd556c11a64ae
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737937093091
+status: 3
+tags: []
+user_id: ankit
