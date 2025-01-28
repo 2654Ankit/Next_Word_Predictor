@@ -14,5 +14,5 @@ data_transformation:
   data_file_name: text_data.txt
 
 model_trainer:
-  model_dir: my_model
-  model_name: NextWord.pkl
+  model_dir: my_model2
+  model_name: NextWord.h5

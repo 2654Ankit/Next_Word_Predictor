@@ -7,36 +7,35 @@ from src.pipeline.Stage_04_model_evaluation import Model_Evaluation_Pipeline
 # from src.components.prediction import Prediction
 from src.pipeline.Prediction_pipeline import Prediction_Pipeline
 
-STAGE_NAME = "Data_ingestion_stage"
+# STAGE_NAME = "Data_ingestion_stage"
 
-try:
-    logger.info(f">>>>>>>>>>>>>>>>>Entered into {STAGE_NAME}<<<<<<<<<<<<<<<")
-    obj = Data_ingestion_pipeline()
-    obj.main()
-    logger.info(f"Exist from {STAGE_NAME}")
+# try:
+#     logger.info(f">>>>>>>>>>>>>>>>>Entered into {STAGE_NAME}<<<<<<<<<<<<<<<")
+#     obj = Data_ingestion_pipeline()
+#     obj.main()
+#     logger.info(f"Exist from {STAGE_NAME}")
 
-except Exception as e:
-    raise e
+# except Exception as e:
+#     raise e
 
-STAGE_NAME = "Data_transformation_stage"
+# STAGE_NAME = "Data_transformation_stage"
 
-try:
-    logger.info(f">>>>>>>>>>>>>>>>> Entered into {STAGE_NAME}<<<<<<<<<<<<<<<")
-    obj = Data_Transformation_Pipeline()
-    unique_word = obj.main()
-    logger.info(f">>>>>>>>>>>>>>>>> Exist from {STAGE_NAME} <<<<<<<<<<<<<<<<<<")
+# try:
+#     logger.info(f">>>>>>>>>>>>>>>>> Entered into {STAGE_NAME}<<<<<<<<<<<<<<<")
+#     obj = Data_Transformation_Pipeline()
+#     unique_word = obj.main()
+#     logger.info(f">>>>>>>>>>>>>>>>> Exist from {STAGE_NAME} <<<<<<<<<<<<<<<<<<")
 
-except Exception as e:
-    raise e
+# except Exception as e:
+#     raise e
 
 
 STAGE_NAME = "Model_trainer_stage"
 
 try:
     logger.info(f">>>>>>>>>>>>>>>>> Entered into {STAGE_NAME}<<<<<<<<<<<<<<<")
-    print("unique word is ",unique_word)
 
-    obj = Model_Trainer_Pipeline(unique_word=unique_word[0],max_len=unique_word[1])
+    obj = Model_Trainer_Pipeline(unique_word=2,max_len=2)
     obj.main()
     logger.info(f">>>>>>>>>>>>>>>>> Exist from {STAGE_NAME} <<<<<<<<<<<<<<<<<<")
 

@@ -4,6 +4,7 @@ from src import logger
 from src.constants import *
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 import numpy as np
+from tensorflow.keras.models import load_model
 
 import pickle
 
@@ -20,7 +21,7 @@ class Prediction:
 
             model_path = model_trainer.model_dir+"/" + model_trainer.model_name
 
-            model = pickle.load(open(model_path,'rb'))
+            model = load_model(model_path)
 
             tokenizer_path = "artifacts/transformed_data/tokenizer.pkl"
 

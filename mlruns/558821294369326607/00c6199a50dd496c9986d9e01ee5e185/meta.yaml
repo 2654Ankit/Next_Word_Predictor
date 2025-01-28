@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/ML_Projects/End_to_end/Next_Word_Predictor/mlruns/558821294369326607/00c6199a50dd496c9986d9e01ee5e185/artifacts
+end_time: 1738073294516
+entry_point_name: ''
+experiment_id: '558821294369326607'
+lifecycle_stage: active
+run_id: 00c6199a50dd496c9986d9e01ee5e185
+run_name: sneaky-fish-732
+run_uuid: 00c6199a50dd496c9986d9e01ee5e185
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738073294453
+status: 3
+tags: []
+user_id: ankit

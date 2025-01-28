@@ -43,9 +43,8 @@ class ModelTrainer:
 
         model_path = self.model_trainer_config.model_dir +"/" + self.model_trainer_config.model_name
 
-        pickle.dump(model,open(model_path,'wb'))
-        
+        model.save(model_path)
+
         logger.info(f">>>>>>>>>>>>> model is at {self.model_trainer_config.model_dir} <<<<<<<<<<<<<<")
 
         logger.info(">>>>>>>>> Model training completed <<<<<<<<<<<<<<<<")
-

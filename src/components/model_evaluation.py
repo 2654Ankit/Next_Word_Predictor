@@ -5,6 +5,8 @@ import os
 from logger import logger
 import mlflow
 from urllib.parse import urlparse
+from tensorflow.keras.models import load_model
+
 class Evaluation:
     def __init__(self):
         self.config = read_yaml(CONFIG_FILE_PATH)
@@ -13,7 +15,7 @@ class Evaluation:
 
     def load_model(self):
         path = os.path.join(self.config.model_trainer.model_dir,self.config.model_trainer.model_name)
-        return pickle.load(open(path,"rb"))
+        return load_model(path)
 
     def load_test_data(self):
         path = os.path.join(self.config.data_transformation.transformed_data_dir)
