@@ -29,8 +29,7 @@ def predict():
 
 import os
 
-port = int(os.getenv("PORT", 8080))  # Default to 8080 if PORT is not set
 
 if __name__ =="__main__":
 
-    app.run(debug=True,host='0.0.0.0',port=port) 
+    app.run(debug=True,host='0.0.0.0',port=8080) 
